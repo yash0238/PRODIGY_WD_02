@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Stopwatch</title>
+    <link rel="stylesheet" href="light.css" id="theme-link"> </head>
+<body>
+    <div id="stopwatch">
+        <div id="display">00:00:00</div>
+        <div id="controls">
+            <button id="start">Start</button>
+            <button id="stop" disabled>Stop</button>
+            <button id="split" disabled>Split</button>
+            <button id="reset">Reset</button>
+            <button id="lap" disabled>Lap</button>
+        </div>
+        <div id="laps">
+            <h2>Laps</h2>
+            <ul id="lap-list"></ul>
+        </div>
+        <select id="theme-selector">
+            <option value="light.css">Light Theme</option>
+            <option value="dark.css">Dark Theme</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
