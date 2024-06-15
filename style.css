@@ -1,0 +1,104 @@
+
+body {
+    background-color: #222;
+    color: white;
+}
+
+#controls button {
+    background-color: #444;
+    color: #ddd;
+}
+
+#start {
+    background-color: #388e3c;
+}
+
+#stop, #split {
+    background-color: #ffa500;
+}
+
+#reset {
+    background-color: #999;
+}
+
+#lap {
+    background-color: #428bca;
+}
+
+#laps {
+    color: #ddd;
+}
+
+#theme-selector {
+    background-color: #333;
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+}
+
+#display {
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+#controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: green;
+    color: white;
+}
+
+#stop, #split {
+    background-color: orange;
+    color: white;
+}
+
+#reset {
+    background-color: gray;
+    color: white;
+}
+
+#lap {
+    background-color: blue;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+}
+
+#lap-list {
+    list-style: none;
+    padding: 0;
+}
+
+#lap-list li {
+    margin-bottom: 5px;
+}
+
+#theme-selector {
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
